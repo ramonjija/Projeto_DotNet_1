@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamonSilva.Aula3.ConsoleApp", "RamonSilva.Aula3.ConsoleApp\RamonSilva.Aula3.ConsoleApp.csproj", "{5844251D-65E3-4AB4-A4D4-8F02AFFAB640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamonSilva.Aula3.Model", "RamonSilva.Aula3.Model\RamonSilva.Aula3.Model.csproj", "{F3C9E711-4A38-4C5A-8673-75ECA836B045}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5844251D-65E3-4AB4-A4D4-8F02AFFAB640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5844251D-65E3-4AB4-A4D4-8F02AFFAB640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5844251D-65E3-4AB4-A4D4-8F02AFFAB640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5844251D-65E3-4AB4-A4D4-8F02AFFAB640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C9E711-4A38-4C5A-8673-75ECA836B045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C9E711-4A38-4C5A-8673-75ECA836B045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C9E711-4A38-4C5A-8673-75ECA836B045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C9E711-4A38-4C5A-8673-75ECA836B045}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
