@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RamonSilva.Aula3.Model
+namespace RamonSilva.Aula03.Model
 {
     public enum TipoLogradouro
     {

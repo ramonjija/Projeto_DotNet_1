@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamonSilva.Aula3.ConsoleApp", "RamonSilva.Aula3.ConsoleApp\RamonSilva.Aula3.ConsoleApp.csproj", "{5844251D-65E3-4AB4-A4D4-8F02AFFAB640}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamonSilva.Aula03.ConsoleApp", "RamonSilva.Aula03.ConsoleApp\RamonSilva.Aula03.ConsoleApp.csproj", "{5844251D-65E3-4AB4-A4D4-8F02AFFAB640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamonSilva.Aula3.Model", "RamonSilva.Aula3.Model\RamonSilva.Aula3.Model.csproj", "{F3C9E711-4A38-4C5A-8673-75ECA836B045}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RamonSilva.Aula03.Model", "RamonSilva.Aula03.Model\RamonSilva.Aula03.Model.csproj", "{F3C9E711-4A38-4C5A-8673-75ECA836B045}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

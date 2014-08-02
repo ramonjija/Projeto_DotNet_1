@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5844251D-65E3-4AB4-A4D4-8F02AFFAB640}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{F3C9E711-4A38-4C5A-8673-75ECA836B045}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RamonSilva.Aula3.ConsoleApp</RootNamespace>
-    <AssemblyName>RamonSilva.Aula3.ConsoleApp</AssemblyName>
+    <RootNamespace>RamonSilva.Aula03.Model</RootNamespace>
+    <AssemblyName>RamonSilva.Aula03.Model</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,18 +39,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Endereco\TipoEndereco.cs" />
+    <Compile Include="Endereco\TipoLogradouro.cs" />
+    <Compile Include="Endereco\UF.cs" />
+    <Compile Include="Endereco\Logradouro.cs" />
+    <Compile Include="Endereco\Cidade.cs" />
+    <Compile Include="Endereco\Bairro.cs" />
+    <Compile Include="Endereco\Endereco.cs" />
+    <Compile Include="Pessoa\Juridica.cs" />
+    <Compile Include="Pessoa\Fisica.cs" />
+    <Compile Include="Pessoa\Pessoa.cs" />
+    <Compile Include="Pessoa\Sexo\TipoSexo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Telefone\TipoTelefone.cs" />
+    <Compile Include="Telefone\Telefone.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RamonSilva.Aula3.Model\RamonSilva.Aula3.Model.csproj">
-      <Project>{f3c9e711-4a38-4c5a-8673-75eca836b045}</Project>
-      <Name>RamonSilva.Aula3.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

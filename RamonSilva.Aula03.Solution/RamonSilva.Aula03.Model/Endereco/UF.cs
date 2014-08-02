@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RamonSilva.Aula3.Model
+namespace RamonSilva.Aula03.Model
 {
-    public enum TipoTelefone
+    public class UF
     {
-        Empresarial, Residencial, Celular, FAX, Fixo
+        public int ID { get; set; }
+        public String Sigla { get; set; }
     }
 }

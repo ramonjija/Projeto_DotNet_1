@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RamonSilva.Aula3.Model
+namespace RamonSilva.Aula03.Model
 {
-    public abstract class Pessoa
+    public class Bairro
     {
         public int ID { get; set; }
-        public int IDTelefone { get; set; }
-        public int IDEndereco { get; set; }
+        public int IDCidade { get; set; }
+        public String Descricao { get; set; }
     }
 }
